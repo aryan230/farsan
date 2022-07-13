@@ -8,6 +8,7 @@ import deliveryAdressRoutes from "./routes/deliveryAdressRoutes.js";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import cors from "cors";
 import Razorpay from "razorpay";
+import path from "path";
 
 dotenv.config();
 connectDB();
